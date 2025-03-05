@@ -3,7 +3,7 @@ Naive Bayes model to detect spam email. Streamlit application using the pretrain
 
 # Dataset
 
-For the initial dataset, aproximately 5700 randomly emails were evaluated. Dataset was pulled from the following github: https://github.com/hnawaz007/pythondataanalysis/tree/main/ML/data
+For the initial dataset, aproximately 5700 random emails were evaluated. Dataset was pulled from the following github: https://github.com/hnawaz007/pythondataanalysis/tree/main/ML/data
 
 This dataset only contained 2 columns for the text and the label stating if the e-mail was an spam or not.
 
