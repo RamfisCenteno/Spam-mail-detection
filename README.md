@@ -1,7 +1,7 @@
 # Spam-mail-detection
 Naive Bayes model to detect spam email. Streamlit application using the pretrained model
 
-#Dataset
+# Dataset
 
 For the initial dataset, aproximately 5700 randomly emails were evaluated. Dataset was pulled from the following github: https://github.com/hnawaz007/pythondataanalysis/tree/main/ML/data
 
@@ -15,14 +15,14 @@ Also the distribution of the dataset is as follows:
 
 ![Spam Mail Detection](images/distributiondataset.png)
 
-#Preprocesing
+# Preprocesing
 
 The dataset did not contained any null values, so we did not need to deal with that. 
 
 But, as it can be seen in the example, the dataset contains the "Subject:" text in all the mails. So we need to delete that so it would not affect the training. 
 
 
-#Training
+# Training
 
 We would be using the Naive Bayes model, this is specially usefull as it accounts for the word frecuency and uses it to calculate the probability for the e-mail to be considered as an spam.
 
@@ -34,13 +34,13 @@ For the vocabulary, only the train part of the dataset would be used so it wont 
 The dataset was splitted in 70% training, 20% test and 10% validation
 
 
-#Results
+# Results
 
 Using this approach we got a 99% accuracy in the validation part of the dataset.
 
 ![Spam Mail Detection](images/confusionmatrix.png)
 
-#Application
+# Application
 
 After we train the model, we can deploy an application using stream lit which would allow us to introduce manual text or upload an e-mail file to the application so the classiffier can determinate if its an spam or not.
 
